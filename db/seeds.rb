@@ -22,13 +22,13 @@ puts "Creating reviews..."
 # * and a review belongs to an user.                              *
 # *****************************************************************
 # Create Reviews Here
-Review.create(star_rating: 5, comment: "Awesome!", product_id: product1.id, user_id: user1.id)
-Review.create(star_rating: 4, comment: "Fantastic!", product_id: product2.id, user_id: user1.id)
-Review.create(star_rating: 4, comment: "Useful!", product_id: product3.id, user_id: user2.id)
-Review.create(star_rating: 5, comment: "Awesome!", product_id: product4.id, user_id: user1.id)
-Review.create(star_rating: 3, comment: "Do better!", product_id: product5.id, user_id: user2.id)
-Review.create(star_rating: 2, comment: "Awful!", product_id: product5.id, user_id: user3.id)
-Review.create(star_rating: 1, comment: "Trash!", product_id: product4.id, user_id: user3.id)
-Review.create(star_rating: 5, comment: "Awesome!", product_id: product2.id, user_id: user2.id)
+review1 = Review.create(star_rating: 5, comment: "Awesome!", product_id: product1.id, user_id: user1.id)
+review2 = Review.create(star_rating: 4, comment: "Fantastic!", product_id: product2.id, user_id: user1.id)
+review3 = Review.create(star_rating: 4, comment: "Useful!", product_id: product3.id, user_id: user2.id)
+review4 = Review.create(star_rating: 5, comment: "Awesome!", product_id: product4.id, user_id: user1.id)
+review5 = Review.create(star_rating: 3, comment: "Do better!", product_id: product5.id, user_id: user2.id)
+review6 = Review.create(star_rating: 2, comment: "Awful!", product_id: product5.id, user_id: user3.id)
+review7 = Review.create(star_rating: 1, comment: "Trash!", product_id: product4.id, user_id: user3.id)
+review8 = Review.create(star_rating: 5, comment: "Awesome!", product_id: product2.id, user_id: user2.id)
 
 puts "Seeding done!"
